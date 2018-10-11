@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bitter:700, 400');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&amp;subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,vietnamese');
+
+body {
+   height:100%;
+   line-height:18px;
+   position:absolute;
+   text-shadow:1px 1px 1px rgba(0,0,0,.004);
+   text-rendering:optimizeLegibility!important;
+   -webkit-font-smoothing:antialiased!important;
+   width:100%;
+}
+
+h1 {
+   font-size:37px;
+   font-family: Bitter, NotoSansCJKsc, NotoSansCJKtc, NotoSansCJKjp, NotoSansCJKkr, NotoSansHebrew, NotoNaskhArabic, NotoSans, serif;
+   font-weight: 400;
+   line-height:36px;
+   padding:0 0 20px 0;
+}
+
+html, body {
+   color: #232323;
+   font-family: Roboto, NotoSansCJKsc, NotoSansCJKtc, NotoSansCJKjp, NotoSansCJKkr, NotoSansHebrew, NotoNaskhArabic, NotoSans, sans-serif;
+   font-weight: normal;
+   -webkit-text-size-adjust: 100%;
+   height: 100%;
+}
+
+li {
+   font-size:10px;
+}
+
+p {
+   color:#232323;
+   font-size:10px;
+   font-weight: normal;
+}
+
+span {
+   font-size:10px;
+}
+
+table {
+   position: relative;
+   min-height: 100vh;
+   min-height: 99999;
+}
+
+ul {
+   padding-left:20px;
+}
+
+.m-layout-1-3 {
+    border-right: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    float:left;
+    left: 1px;
+    left: 2;
+    padding-right: 15px;
+    position: relative;
+    width: 162px;
+}
+
+.m-layout-1-3.letter {
+   width: 163;
+}
+
+.m-layout-2-3 {
+   float: right;
+   width:66.6666666667%;
+}
+
+.m-layout-3-3 {
+   float:left;
+   position:relative;
+   width:100%;
+}
+
+.m-layout-left {
+   height:100%;
+   padding:0 20px 20px 0;
+   position:relative;
+}
+
+.m-content {
+   font-size:10px;
+   margin-bottom:5px;
+   padding:0 15px 0 10px;
+}
+
+.m-content-title {
+   display:block;
+   font-family: Roboto, NotoSansCJKsc, NotoSansCJKtc, NotoSansCJKjp, NotoSansCJKkr, NotoSansHebrew, NotoNaskhArabic, NotoSans, sans-serif;
+   font-size:11px;
+   font-weight: bold;
+   padding-right:9px;
+   width:100%;
+}
+
+.m-content-content {
+   font-weight: normal;
+   width:100%;
+}
+
+.m-content-container {
+   margin-bottom:5px;
+}
+
+.m-panel {
+   float:left;
+   padding:20px 0;
+   position: relative;
+   width:100%;
+}
+
+.m-panel-left {
+   border-bottom:0;
+   margin-left: 24px;
+   margin-left: 19;
+   width:166px;
+}
+
+.m-panel-left h3 {
+   border-bottom:1px solid #ffffff;
+   font-size:15px;
+   padding-bottom:10px;
+}
+
+.m-panel-icon {
+   padding-left:55px;
+}
+
+.m-panel-icon:before {
+   content:url(../images/think.svg);
+   position:absolute;
+   left:15px;
+}
+
+.m-bar {
+   background:#fff;
+   height:10px;
+}
+
+.m-bar-fill {
+   background:#ffffff;
+   height:10px;
+   width:100%;
+}
+
+.m-bar-fill-0 {
+   width:0;
+}
+
+.m-bar-fill-1 {
+   width:10%;
+}
+
+.m-bar-fill-2 {
+   width:20%;
+}
+
+.m-bar-fill-3 {
+   width:30%;
+}
+
+.m-bar-fill-4 {
+   width:40%;
+}
+
+.m-bar-fill-5 {
+   width:50%;
+}
+
+.m-bar-fill-6 {
+   width:60%;
+}
+
+.m-bar-fill-7 {
+   width:70%;
+}
+
+.m-bar-fill-8 {
+   width:80%;
+}
+
+.m-bar-fill-9 {
+   width:90%;
+}
+
+.m-bar-fill-10 {
+   width:100%;
+}
+
+.m-txt-title {
+   font-family: Bitter, NotoSansCJKsc, NotoSansCJKtc, NotoSansCJKjp, NotoSansCJKkr, NotoSansHebrew, NotoNaskhArabic, NotoSans, serif;
+   font-size:10px;
+   font-weight: bold;
+   margin-bottom:0px;
+   position: relative;
+}
+
+.m-txt-title-second {
+   font-size:15px;
+   font-weight: bold;
+   font-family: Roboto, NotoSansCJKsc, NotoSansCJKtc, NotoSansCJKjp, NotoSansCJKkr, NotoSansHebrew, NotoNaskhArabic, NotoSans, sans-serif;
+   margin-bottom:5px;
+   overflow: hidden;
+}
+
+.m-txt-subtitle {
+   display:block;
+   font-size:12px;
+   font-weight: normal;
+   margin-bottom:2px;
+   overflow: hidden;
+   text-align:right;
+   width: 100%;
+}
+
+.m-txt-subtitle b {
+   font-weight:bold;
+}
+
+.container {
+   /*height:100%;*/
+   margin:auto;
+   max-width:750px;
+   overflow:visible;
+   padding:0;
+   position:relative;
+
+}
+
+.container>div {
+   position:relative;
+}
+
+.m-layout-bg {
+   bottom:0;
+   color:#fff;
+   height: 9999em;
+   padding-left:25px;
+   padding-right: 18px;
+   padding-top:20px;
+   position:absolute;
+   max-height: 100vh;
+   min-height: 903px;
+   top:0;
+   -webkit-print-color-adjust:exact;
+}
+
+.m-panel-child {
+   display: block;
+   margin-top:15px;
+   margin-bottom: 0px;
+   min-height: 25px;
+   overflow:hidden;
+   /*page-break-after: auto;*/
+   position: relative;
+   width:100%;
+}
+
+.m-steps-ball-container {
+   background: #fff;
+   height: 13px;
+   left: 157px;
+   left: 158;
+   position: relative;
+   top: 0;
+   width: 13px;
+}
+
+.m-steps-ball {
+   border-radius:10px;
+   height:10px;
+   position: relative;
+   top: 4px;
+   -webkit-print-color-adjust:exact;
+   width:10px; 
+}
+
+.m-steps-ball-container.A4 {
+    left: 157;
+}
+
+.m-steps-ball-last {
+   height:50%;
+}
+
+.m-layouttop-1-3 {
+   width:33.3333333333%;
+}
+
+.m-layouttop-2-3 {
+   width:66.6666666667%;
+}
+
+.m-layout-left-container {
+   color: #fff;
+   display: block;
+   height:100vh;
+   min-height: 950px;
+   width: 210px; /*215*/
+}
+
+.m-txt-p {
+   color: #3b3b3b;
+   float: left;
+   font-size: 12px;
+   font-weight: normal;
+   overflow: hidden;
+   text-align: left;
+   width: 100%;
+   word-break: break-word;
+   word-wrap: break-word;
+}
+
+.m-txt-p i {
+    overflow: hidden;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+.m-panel:last-child {
+   border-bottom: 0;
+}
+
+.m-panel-left h3.m-txt-title {
+   margin-bottom: 15px;
+}
+
+.m-panel-left ul li {
+   font-weight: normal;
+}
+
+.m-txt-p ul, .m-txt-p ol{
+   padding-left: 20px;
+}
+
+.m-txt-p li{
+   font-size: 12px;
+}
+
+.m-txt-p i{
+   font-style: italic;
+}
+
+.m-txt-p strong, .m-txt-p b{
+   font-weight: bold;
+}
+
+.m-content-mail{
+   white-space: nowrap;
+}
+
+.m-panel-contact, .m-panel-information {
+   padding: 40px 0 20px 0;
+}
+
+.ts-content {
+   border-left: 1px solid #e8e8e8;
+   box-sizing: border-box;
+   padding-left: 15px;
+   width: 315px;
+}
+
+.ts-content.A4 {
+    width: 300;
+}
+
+.divider {
+    background: #e8e8e8;
+    height: 1px;
+    page-break-before: auto;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+}
+
+.m-panel:first-child .divider {
+    background: transparent;
+}
+
+.m-education-info, .m-work-info {
+    margin-top: -12px;
+}
