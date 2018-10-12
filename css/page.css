@@ -266,11 +266,11 @@ ul {
 .main {
     /*height:100%;*/
     margin:auto;
-    max-width:750px;
+    max-width:900px;
     overflow:visible;
     padding:0;
     position:relative;
-    top: 70px;
+    top: 60px;
 
 }
 
